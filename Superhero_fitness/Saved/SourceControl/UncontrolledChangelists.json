@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"/Users/nash/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Levels/Main_hub.umap",
+				"/Users/nash/Documents/GitHub/GHU_Project/Superhero_fitness/Content/UI/FIGHT.uasset",
+				"/Users/nash/Documents/GitHub/GHU_Project/Superhero_fitness/Content/UI/Minigames.uasset",
+				"/Users/nash/Documents/GitHub/GHU_Project/Superhero_fitness/Content/UI/View_Stats.uasset",
+				"/Users/nash/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Blueprints/UI_forHud.uasset",
 				"C:/Users/Leif/Documents/GHU_Project/Superhero_fitness/Content/Levels/Main_level.umap",
 				"C:/Users/Leif/Documents/GHU_Project/Superhero_fitness/Content/Levels/Main_hub.umap"
 			]
