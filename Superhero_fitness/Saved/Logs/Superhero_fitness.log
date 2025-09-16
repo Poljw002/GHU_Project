@@ -3571,3 +3571,1158 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.09.16-03.11.48:467][741]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.09.16-03.11.48:467][741]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.09.16-03.11.48:467][741]AssetCheck: /Game/Levels/Main_hub Validating asset
+[2025.09.16-03.13.42:757][424]LogSlate: Window 'BP_pidgeon_follow' being destroyed
+[2025.09.16-03.13.44:257][492]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.16-03.13.44:490][492]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_pidgeon_follow] ([2] browsable assets)...
+[2025.09.16-03.13.44:506][492]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_pidgeon_follow.BP_pidgeon_follow]
+[2025.09.16-03.13.44:506][492]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_pidgeon_follow]
+[2025.09.16-03.13.44:531][492]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_pidgeon_follow
+[2025.09.16-03.13.44:536][492]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/BP_pidgeon_followDDF7A95E42B2773E07B54DAA178B3423.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Blueprints/BP_pidgeon_follow.uasset'
+[2025.09.16-03.13.44:561][492]LogFileHelpers: InternalPromptForCheckoutAndSave took 304.024 ms (total: 2.82 sec)
+[2025.09.16-03.13.44:793][492]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.16-03.13.44:793][492]LogContentValidation: Enabled validators:
+[2025.09.16-03.13.44:793][492]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.16-03.13.44:793][492]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.16-03.13.44:793][492]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.16-03.13.44:793][492]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.16-03.13.44:793][492]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.16-03.13.44:793][492]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.16-03.13.44:794][492]AssetCheck: /Game/Blueprints/BP_pidgeon_follow Validating asset
+[2025.09.16-03.13.48:415][699]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.16-03.13.48:447][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.16-03.13.48:447][699]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.13.48:457][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009096s)
+[2025.09.16-03.13.48:457][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_hub.Main_hub to /Game/Levels/UEDPIE_0_Main_hub.Main_hub (0.009173s)
+[2025.09.16-03.13.48:505][699]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2025.09.16-03.13.48:509][699]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_hub
+[2025.09.16-03.13.48:511][699]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Main_hub.Main_hub'.
+[2025.09.16-03.13.48:512][699]LogPlayLevel: PIE: World Init took: (0.002844s)
+[2025.09.16-03.13.48:513][699]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.09.16-03.13.48:513][699]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.16-03.13.48:513][699]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.16-03.13.48:513][699]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.16-03.13.48:515][699]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.16-03.13.48:515][699]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.16-03.13.48:515][699]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.16-03.13.48:515][699]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.16-03.13.48:515][699]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.16-03.13.48:515][699]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.16-03.13.48:515][699]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.16-03.13.48:515][699]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.16-03.13.48:518][699]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.16-03.13.48:559][699]LogAudioMixer: Display: Using Audio Hardware Device Speakers (NVIDIA Broadcast)
+[2025.09.16-03.13.48:560][699]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.16-03.13.48:560][699]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.16-03.13.48:560][699]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.16-03.13.48:560][699]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.09.16-03.13.48:560][699]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.09.16-03.13.48:566][699]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.09.16-03.13.48:566][699]LogInit: FAudioDevice initialized with ID 13.
+[2025.09.16-03.13.48:566][699]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.09.16-03.13.48:566][699]LogAudio: Display: Audio Device (ID: 13) registered with world 'Main_hub'.
+[2025.09.16-03.13.48:566][699]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.09.16-03.13.48:573][699]LogLoad: Game class is 'GM_2D_C'
+[2025.09.16-03.13.48:575][699]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_hub.Main_hub up for play (max tick rate 60) at 2025.09.16-12.43.48
+[2025.09.16-03.13.48:576][699]LogWorld: Bringing up level for play took: 0.003059
+[2025.09.16-03.13.48:581][699]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2025.09.16-03.13.48:583][699]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.16-03.13.48:583][699]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.16-03.13.48:583][699]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Hero_with_cape'
+[2025.09.16-03.13.48:590][699]PIE: Server logged in
+[2025.09.16-03.13.48:594][699]PIE: Play in editor total start time 0.148 seconds.
+[2025.09.16-03.14.03:853][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.14.03:853][573]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.14.03:853][573]LogWorld: UWorld::CleanupWorld for Main_hub, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.14.03:854][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.14.03:862][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.16-03.14.03:878][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.14.03:938][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.14.03:938][573]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.09.16-03.14.03:938][573]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.09.16-03.14.03:941][573]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.09.16-03.14.03:955][573]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2025.09.16-03.14.04:183][574]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2025.09.16-03.14.10:178][918]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.16-03.14.10:218][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.16-03.14.10:219][918]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.14.10:241][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022669s)
+[2025.09.16-03.14.10:241][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_hub.Main_hub to /Game/Levels/UEDPIE_0_Main_hub.Main_hub (0.022801s)
+[2025.09.16-03.14.10:293][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2025.09.16-03.14.10:296][918]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_hub
+[2025.09.16-03.14.10:299][918]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Main_hub.Main_hub'.
+[2025.09.16-03.14.10:300][918]LogPlayLevel: PIE: World Init took: (0.004011s)
+[2025.09.16-03.14.10:303][918]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.09.16-03.14.10:303][918]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.16-03.14.10:303][918]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.16-03.14.10:303][918]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.16-03.14.10:303][918]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.16-03.14.10:303][918]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.16-03.14.10:303][918]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.16-03.14.10:303][918]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.16-03.14.10:303][918]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.16-03.14.10:304][918]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.16-03.14.10:304][918]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.16-03.14.10:304][918]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.16-03.14.10:309][918]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.16-03.14.10:363][918]LogAudioMixer: Display: Using Audio Hardware Device Speakers (NVIDIA Broadcast)
+[2025.09.16-03.14.10:365][918]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.16-03.14.10:365][918]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.16-03.14.10:365][918]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.16-03.14.10:366][918]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.09.16-03.14.10:366][918]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.09.16-03.14.10:378][918]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.09.16-03.14.10:378][918]LogInit: FAudioDevice initialized with ID 14.
+[2025.09.16-03.14.10:378][918]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.09.16-03.14.10:378][918]LogAudio: Display: Audio Device (ID: 14) registered with world 'Main_hub'.
+[2025.09.16-03.14.10:378][918]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.09.16-03.14.10:387][918]LogLoad: Game class is 'GM_2D_C'
+[2025.09.16-03.14.10:390][918]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_hub.Main_hub up for play (max tick rate 60) at 2025.09.16-12.44.10
+[2025.09.16-03.14.10:390][918]LogWorld: Bringing up level for play took: 0.003372
+[2025.09.16-03.14.10:395][918]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2025.09.16-03.14.10:398][918]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.16-03.14.10:398][918]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.16-03.14.10:398][918]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Hero_with_cape'
+[2025.09.16-03.14.10:407][918]PIE: Server logged in
+[2025.09.16-03.14.10:411][918]PIE: Play in editor total start time 0.194 seconds.
+[2025.09.16-03.14.37:121][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.14.37:121][753]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.14.37:122][753]LogWorld: UWorld::CleanupWorld for Main_hub, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.14.37:123][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.14.37:131][753]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.16-03.14.37:139][753]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.14.37:186][753]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.14.37:187][753]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.09.16-03.14.37:187][753]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.09.16-03.14.37:190][753]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.09.16-03.14.37:206][753]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2025.09.16-03.14.37:464][754]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2025.09.16-03.14.48:301][362]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.16-03.14.48:610][362]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_pidgeon_follow] ([2] browsable assets)...
+[2025.09.16-03.14.48:610][362]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_pidgeon_follow]
+[2025.09.16-03.14.48:636][362]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_pidgeon_follow
+[2025.09.16-03.14.48:641][362]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/BP_pidgeon_follow77AF8F8D4AD37BDE42863EAC55AD22E4.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Blueprints/BP_pidgeon_follow.uasset'
+[2025.09.16-03.14.48:665][362]LogFileHelpers: InternalPromptForCheckoutAndSave took 363.191 ms (total: 3.19 sec)
+[2025.09.16-03.14.48:914][362]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.16-03.14.48:915][362]LogContentValidation: Enabled validators:
+[2025.09.16-03.14.48:915][362]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.16-03.14.48:915][362]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.16-03.14.48:915][362]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.16-03.14.48:915][362]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.16-03.14.48:915][362]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.16-03.14.48:915][362]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.16-03.14.48:915][362]AssetCheck: /Game/Blueprints/BP_pidgeon_follow Validating asset
+[2025.09.16-03.14.55:490][676]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.09.16-03.14.55:516][676]LogContentBrowser: Creating deferred item: NewFolder
+[2025.09.16-03.14.55:571][677]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.09.16-03.14.59:789][908]LogContentBrowser: Attempting asset rename: NewFolder -> Bin
+[2025.09.16-03.14.59:790][908]LogContentBrowser: End creating deferred item NewFolder
+[2025.09.16-03.15.34:836][336]LogStreaming: Display: FlushAsyncLoading(645): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.16-03.15.35:136][336]LogInterchangeEngine: [Pending] Importing
+[2025.09.16-03.15.35:136][336]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/kaino/OneDrive/Desktop/Blender/superhero/pixilart-drawing_1.png]
+[2025.09.16-03.15.35:678][338]LogStreaming: Display: FlushAsyncLoading(668): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.16-03.15.35:680][339]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2025.09.16-03.15.36:011][340]LogTexture: Display: Building textures: /Game/Props/Bin/pixilart-drawing_1.pixilart-drawing_1 (TFO_AutoDXT, 100x64 x1x1x1) (Required Memory Estimate: 2.009076 MB), EncodeSpeed: Fast
+[2025.09.16-03.15.36:369][340]LogInterchangeEngine: Display: Interchange import completed [C:/Users/kaino/OneDr...op/Blender/superhero/pixilart-drawing_1.png]
+[2025.09.16-03.15.36:379][340]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.09.16-03.15.36:379][340]LogInterchangeEngine: [Success] Import Done
+[2025.09.16-03.15.47:952][674]Cmd: TRANSACTION UNDO
+[2025.09.16-03.15.47:952][674]LogEditorTransaction: Undo Place Objects
+[2025.09.16-03.15.49:110][703]Cmd: TRANSACTION UNDO
+[2025.09.16-03.15.49:110][703]LogEditorTransaction: Undo Place Objects
+[2025.09.16-03.16.15:148][611]LogContentBrowser: Deferred new asset file creation: NewLandscapeGrassType
+[2025.09.16-03.16.15:164][611]LogContentBrowser: Creating deferred item: NewLandscapeGrassType
+[2025.09.16-03.16.15:193][612]LogContentBrowser: Renaming the item being created (Deferred Item: NewLandscapeGrassType).
+[2025.09.16-03.16.16:408][682]LogContentBrowser: Attempting asset rename: NewLandscapeGrassType -> NewLandscapeGrassType
+[2025.09.16-03.16.16:690][682]LogContentBrowser: End creating deferred item NewLandscapeGrassType
+[2025.09.16-03.16.20:388][859]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2025.09.16-03.16.20:636][859]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2025.09.16-03.16.20:657][859]LogSlate: Took 0.018019 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2025.09.16-03.16.21:483][859]LogSlate: Window 'Delete Assets' being destroyed
+[2025.09.16-03.16.21:553][859]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2025.09.16-03.16.21:617][859]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2025.09.16-03.16.21:658][859]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2025.09.16-03.16.29:853][173]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.16-03.16.29:877][173]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.16-03.16.29:888][173]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.16-03.16.29:911][174]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.16-03.16.35:641][503]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_bin
+[2025.09.16-03.16.36:008][503]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.16-03.16.37:102][536]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Props/Bin/BP_bin.BP_bin
+[2025.09.16-03.16.37:104][536]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.09.16-03.16.37:107][536]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_17'.
+[2025.09.16-03.16.42:045][727]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.09.16-03.16.42:046][727]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_18'.
+[2025.09.16-03.16.44:439][817]LogHttp: Warning: 0000023AD8A78500: request failed, libcurl error: 6 (Could not resolve hostname)
+[2025.09.16-03.16.44:439][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 0 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.09.16-03.16.44:439][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 1 (upload completely sent off: 1788 bytes)
+[2025.09.16-03.16.44:439][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 2 (Recv failure: Connection was reset)
+[2025.09.16-03.16.44:439][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 3 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.09.16-03.16.44:439][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.09.16-03.16.44:439][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 5 (shutting down connection #3)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 6 (Recv failure: Connection was reset)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 7 (Send failure: Connection was reset)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 9 (necessary data rewind was not possible)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 10 (rewind of client reader 'cr-in' failed: 65)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B25D8BDA6-47B0-8CB3-2423-A4831C239CED%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=fbcdbcac4a509d610159c1a2238cc092%7Cb23cf9645d904ff6a08232b487de2ba2%7C0ba435cb-92da-4077-a334-c4ad1815f179&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 12 (necessary data rewind was not possible)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 13 (rewind of client reader 'cr-in' failed: 65)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 14 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500: libcurl info message cache 15 (shutting down connection #4)
+[2025.09.16-03.16.44:440][817]LogHttp: Warning: 0000023AD8A78500 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B25D8BDA6-47B0-8CB3-2423-A4831C239CED%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=fbcdbcac4a509d610159c1a2238cc092%7Cb23cf9645d904ff6a08232b487de2ba2%7C0ba435cb-92da-4077-a334-c4ad1815f179&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 22.75s
+[2025.09.16-03.16.48:166][945]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BA58DDD8C-4664-8D2A-BDC5-F4B06BD578DC%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.16-03.16.48:167][945]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.16-03.16.48:167][945]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 0 (Found bundle for host: 0x23a54080690 [serially])
+[2025.09.16-03.16.48:167][945]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2025.09.16-03.16.48:167][945]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.09.16-03.16.48:167][945]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2025.09.16-03.16.48:167][945]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 7 (Closing connection)
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 9 (Send failure: Connection was reset)
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 11 (Issue another request to this URL: 'https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BA58DDD8C-4664-8D2A-BDC5-F4B06BD578DC%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents')
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 12 (Could not resolve host: api.epicgames.dev)
+[2025.09.16-03.16.48:167][946]LogEOSSDK: Warning: LogHttp: 0000023A8AA49000: libcurl info message cache 13 (Closing connection)
+[2025.09.16-03.16.48:183][946]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BA58DDD8C-4664-8D2A-BDC5-F4B06BD578DC%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.16-03.16.59:699][399]LogStreaming: Display: FlushAsyncLoading(669): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.16-03.16.59:700][399]LogStreaming: Warning: LoadPackage: SkipPackage: /Game/Props/Bin/pixilart-drawing_1_Mat (0x4869ACAE8937E995) - The package to load does not exist on disk or in the loader
+[2025.09.16-03.16.59:700][399]LogAssetEditorSubsystem: Error: Opening Asset editor failed because of null asset
+[2025.09.16-03.17.03:232][563]LogStreaming: Display: FlushAsyncLoading(670): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.16-03.17.03:233][563]LogAssetEditorSubsystem: Error: Opening Asset editor failed because of null asset
+[2025.09.16-03.17.08:800][807]LogSlate: Window 'Message Log' being destroyed
+[2025.09.16-03.17.08:837][807]LogSlate: Window 'Message Log' being destroyed
+[2025.09.16-03.17.10:832][890]LogStreaming: Display: FlushAsyncLoading(671): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.16-03.17.10:832][890]LogAssetEditorSubsystem: Error: Opening Asset editor failed because of null asset
+[2025.09.16-03.17.15:904][ 76]LogStreaming: Display: FlushAsyncLoading(672): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.16-03.17.15:904][ 76]LogAssetEditorSubsystem: Error: Opening Asset editor failed because of null asset
+[2025.09.16-03.17.19:767][242]LogEOSSDK: Warning: LogHttp: 0000023AE7CBD800: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BA58DDD8C-4664-8D2A-BDC5-F4B06BD578DC%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.16-03.17.19:767][242]LogEOSSDK: Warning: LogHttp: 0000023AE7CBD800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.16-03.17.19:767][242]LogEOSSDK: Warning: LogHttp: 0000023AE7CBD800: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.16-03.17.19:767][243]LogEOSSDK: Warning: LogHttp: 0000023AE7CBD800: libcurl info message cache 1 (Closing connection)
+[2025.09.16-03.17.19:767][243]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7BA58DDD8C-4664-8D2A-BDC5-F4B06BD578DC%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.09.16-03.17.21:145][319]LogSlate: Window 'Message Log' being destroyed
+[2025.09.16-03.17.21:162][319]LogSlate: Window 'Message Log' being destroyed
+[2025.09.16-03.17.22:197][367]LogHttp: Warning: 0000023AE7FAEE00: request failed, libcurl error: 6 (Could not resolve hostname)
+[2025.09.16-03.17.22:198][367]LogHttp: Warning: 0000023AE7FAEE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2025.09.16-03.17.22:198][367]LogHttp: Warning: 0000023AE7FAEE00: libcurl info message cache 1 (shutting down connection #5)
+[2025.09.16-03.17.22:198][367]LogHttp: Warning: 0000023AE7FAEE00 POST https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B25D8BDA6-47B0-8CB3-2423-A4831C239CED%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=fbcdbcac4a509d610159c1a2238cc092%7Cb23cf9645d904ff6a08232b487de2ba2%7C0ba435cb-92da-4077-a334-c4ad1815f179&AppEnvironment=datacollector-binary&UploadType=eteventstream completed with reason 'ConnectionError' after 1.06s
+[2025.09.16-03.17.23:031][407]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Props/Bin/pixilart-drawing_1.pixilart-drawing_1
+[2025.09.16-03.17.24:196][407]LogDeviceProfileManager: Display: Deviceprofile Android_ASTC not found.
+[2025.09.16-03.17.24:199][407]LogDeviceProfileManager: Display: Deviceprofile Android_DXT not found.
+[2025.09.16-03.17.24:200][407]LogDeviceProfileManager: Display: Deviceprofile Android_ETC2 not found.
+[2025.09.16-03.17.24:200][407]LogDeviceProfileManager: Display: Deviceprofile Android_Multi not found.
+[2025.09.16-03.17.28:296][599]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2025.09.16-03.17.28:315][599]LogContentBrowser: Creating deferred item: NewMaterial
+[2025.09.16-03.17.28:343][600]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2025.09.16-03.17.32:731][849]LogContentBrowser: Attempting asset rename: NewMaterial -> M_bin
+[2025.09.16-03.17.33:019][849]LogContentBrowser: End creating deferred item NewMaterial
+[2025.09.16-03.17.33:851][882]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Props/Bin/M_bin.M_bin
+[2025.09.16-03.17.33:882][882]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.09.16-03.17.33:883][882]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_19'.
+[2025.09.16-03.17.35:399][882]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.17.35:399][882]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.16-03.17.35:399][882]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.17.35:399][882]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.17.35:545][882]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3255.879883
+[2025.09.16-03.17.35:619][884]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.17.35:619][884]MaterialEditorStats: Texture samplers: 2/16
+[2025.09.16-03.17.35:619][884]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.16-03.17.35:620][884]MaterialEditorStats: Shader Count: 1
+[2025.09.16-03.17.35:620][884]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.17.36:027][906]LogEOSSDK: Warning: LogHttp: 0000023B07F84800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.16-03.17.36:027][906]LogEOSSDK: Warning: LogHttp: 0000023B07F84800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.16-03.17.36:027][907]LogEOSSDK: Warning: LogHttp: 0000023B07F84800: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.16-03.17.36:027][907]LogEOSSDK: Warning: LogHttp: 0000023B07F84800: libcurl info message cache 1 (Closing connection)
+[2025.09.16-03.17.36:027][907]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/product/86f32f1151354e7cb39c12f8ab2c22a3?platformId=WIN&deploymentId=a652a72ea1664dcab3a467891eea5f30
+[2025.09.16-03.17.36:027][907]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetProductConfigRoute], Url=[<Redacted>]
+[2025.09.16-03.17.36:042][907]LogEOSSDK: Warning: LogEOS: SDK Config Product Update Request Failed, Result Code: EOS_NoConnection, Retrying after 34.969631 seconds
+[2025.09.16-03.17.40:577][156]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.17.40:577][156]MaterialEditorStats: Texture samplers: 4/16
+[2025.09.16-03.17.40:577][156]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.16-03.17.40:577][156]MaterialEditorStats: Shader Count: 3
+[2025.09.16-03.17.40:577][156]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: ================================================
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Total job queries 633, among them cache hits 146 (23.06%), DDC hits 331 (52.29%), Duplicates 86 (13.59%)
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Tracking 401 distinct input hashes that result in 304 distinct outputs (75.81%)
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: RAM used: 4.24 MiB of 819.20 MiB budget. Usage: 0.52%
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Shaders Compiled: 70
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Jobs assigned 70, completed 70 (100%)
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Average time worker was idle: 226.74 s
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Time job spent in pending queue: average 0.56 s, longest 5.16 s
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Job execution time: average 3.27 s, max 7.16 s
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Job life time (pending + execution): average 3.83 s, max 8.84
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Shader code size: total 950.748 KiB, numShaders 73, average 13.023 KiB, min 2.691 KiB, max 22.762 KiB
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 88.51 s
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Jobs were issued in 70 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Average processing rate: 0.79 jobs/sec
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Total thread time: 198.975 s
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Total thread preprocess time: 21.152 s
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Percentage time preprocessing: 10.63%
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Effective parallelization: 2.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.281021
+[2025.09.16-03.17.52:834][817]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   12 times, average 5.22 sec, max 6.63 sec, min 4.49 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    1 times, average 4.20 sec, max 4.20 sec, min 4.20 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 4.19 sec, max 5.99 sec, min 3.30 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    1 times, average 4.16 sec, max 4.16 sec, min 4.16 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   10 times, average 2.63 sec, max 4.10 sec, min 1.97 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 31.48% of total time (compiled   12 times, average 5.22 sec, max 6.63 sec, min 4.49 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.05% of total time (compiled   10 times, average 4.19 sec, max 5.99 sec, min 3.30 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.24% of total time (compiled   10 times, average 2.63 sec, max 4.10 sec, min 1.97 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                                             FDebugViewModePS - 9.77% of total time (compiled    9 times, average 2.16 sec, max 3.75 sec, min 1.61 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 6.72% of total time (compiled    8 times, average 1.67 sec, max 2.50 sec, min 1.46 sec)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: === Material stats ===
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: Materials Translated:    183
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: Material Total Translate Time: 0.28 s
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: Material Translation Only: 0.13 s (47%)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: Material Cache Hits: 29 (16%)
+[2025.09.16-03.17.52:835][817]LogShaderCompilers: Display: ================================================
+[2025.09.16-03.17.54:297][883]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=98F8A87649F324A6AE07FCA44E4879EA, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.16-03.17.54:297][883]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.16-03.17.54:297][884]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2025.09.16-03.17.54:297][884]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: libcurl info message cache 1 (Closing connection)
+[2025.09.16-03.17.54:297][884]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=98F8A87649F324A6AE07FCA44E4879EA
+[2025.09.16-03.17.55:304][941]LogEOSSDK: Warning: LogHttp: Retry 1 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=98F8A87649F324A6AE07FCA44E4879EA
+[2025.09.16-03.17.55:339][943]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=98F8A87649F324A6AE07FCA44E4879EA, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.16-03.17.55:339][943]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.16-03.17.55:339][944]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: libcurl info message cache 2 (Could not resolve host: api.epicgames.dev)
+[2025.09.16-03.17.55:339][944]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: libcurl info message cache 3 (Closing connection)
+[2025.09.16-03.17.55:339][944]LogEOSSDK: Warning: LogHttp: Lockout of 1.000000s on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=98F8A87649F324A6AE07FCA44E4879EA
+[2025.09.16-03.17.56:351][  2]LogEOSSDK: Warning: LogHttp: Retry 2 on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=98F8A87649F324A6AE07FCA44E4879EA
+[2025.09.16-03.17.56:368][  3]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=98F8A87649F324A6AE07FCA44E4879EA, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.09.16-03.17.56:368][  3]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2025.09.16-03.17.56:368][  3]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: libcurl info message cache 4 (Could not resolve host: api.epicgames.dev)
+[2025.09.16-03.17.56:368][  4]LogEOSSDK: Warning: LogHttp: 0000023B07C2EA00: libcurl info message cache 5 (Closing connection)
+[2025.09.16-03.17.56:368][  4]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=98F8A87649F324A6AE07FCA44E4879EA
+[2025.09.16-03.17.56:368][  4]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.09.16-03.18.00:916][187]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.18.00:916][187]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.16-03.18.00:916][187]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.18.00:916][187]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.18.01:094][189]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.18.01:094][189]MaterialEditorStats: Texture samplers: 4/16
+[2025.09.16-03.18.01:094][189]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.16-03.18.01:094][189]MaterialEditorStats: Shader Count: 3
+[2025.09.16-03.18.01:095][189]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.18.02:803][257]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.18.02:803][257]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.18.02:803][257]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.18.02:803][257]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.18.02:803][257]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.18.02:910][259]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.18.02:910][259]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.18.02:910][259]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.18.02:910][259]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.18.02:910][259]MaterialEditorStats: Shader Count: 3
+[2025.09.16-03.18.02:910][259]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.18.05:994][422]LogMaterialEditor: Saving and Compiling material M_bin
+[2025.09.16-03.18.10:182][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2025.09.16-03.18.10:748][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2025.09.16-03.18.11:159][422]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.16-03.18.11:408][422]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/Bin/M_bin] ([1] browsable assets)...
+[2025.09.16-03.18.11:423][422]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Props/Bin/M_bin.M_bin]
+[2025.09.16-03.18.11:423][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bin/M_bin]
+[2025.09.16-03.18.11:423][422]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Bin/M_bin" FILE="../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/M_bin.uasset" SILENT=true
+[2025.09.16-03.18.11:441][422]LogSavePackage: Moving output files for package: /Game/Props/Bin/M_bin
+[2025.09.16-03.18.11:441][422]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/M_bin2B169512473E69CBED889587708BCAE2.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/M_bin.uasset'
+[2025.09.16-03.18.11:917][422]LogFileHelpers: InternalPromptForCheckoutAndSave took 757.625 ms (total: 3.94 sec)
+[2025.09.16-03.18.12:156][422]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.16-03.18.12:156][422]LogContentValidation: Enabled validators:
+[2025.09.16-03.18.12:156][422]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.16-03.18.12:156][422]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.16-03.18.12:156][422]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.16-03.18.12:156][422]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.16-03.18.12:156][422]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.16-03.18.12:156][422]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.16-03.18.12:156][422]AssetCheck: /Game/Props/Bin/M_bin Validating asset
+[2025.09.16-03.18.12:180][422]MaterialEditorStats: Base pass shader: 852 instructions
+Stats: Resources Used: 16
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.09.16-03.18.12:180][422]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.18.12:181][422]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.18.12:181][422]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.18.12:181][422]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.18.12:181][422]MaterialEditorStats: Shader Count: 10
+[2025.09.16-03.18.12:181][422]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.18.12:196][422]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3292.533936
+[2025.09.16-03.18.13:000][468]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.16-03.18.13:000][468]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3293.321777, Update Interval: 355.034027
+[2025.09.16-03.18.55:657][159]LogStreaming: Display: FlushAsyncLoading(673): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.16-03.18.55:677][159]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.18.55:677][159]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.18.55:677][159]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.18.55:677][159]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.18.55:677][159]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.18.55:830][161]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.18.55:830][161]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.18.55:830][161]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.18.55:830][161]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.18.55:830][161]MaterialEditorStats: Shader Count: 3
+[2025.09.16-03.18.55:830][161]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.18.55:859][162]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.09.16-03.18.55:860][162]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_20'.
+[2025.09.16-03.19.04:387][591]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.19.04:387][591]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.19.04:387][591]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.19.04:387][591]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.19.04:387][591]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.19.04:514][593]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.19.04:514][593]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.19.04:514][593]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.19.04:515][593]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.19.04:515][593]MaterialEditorStats: Shader Count: 3
+[2025.09.16-03.19.04:515][593]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.19.18:203][348]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.19.18:203][348]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.19.18:203][348]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.19.18:203][348]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.19.18:203][348]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.19.18:289][350]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.19.18:290][350]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.19.18:290][350]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.19.18:290][350]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.19.18:290][350]MaterialEditorStats: Shader Count: 3
+[2025.09.16-03.19.18:290][350]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.19.19:117][396]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.19.19:117][396]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.16-03.19.19:117][396]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.19.19:117][396]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.19.19:214][398]MaterialEditorStats: Base pass vertex shader: 344 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.19.19:214][398]MaterialEditorStats: Texture samplers: 2/16
+[2025.09.16-03.19.19:214][398]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.09.16-03.19.19:214][398]MaterialEditorStats: Shader Count: 1
+[2025.09.16-03.19.19:214][398]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.19.23:525][618]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.19.23:525][618]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.19.23:525][618]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.19.23:525][618]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.19.23:525][618]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.19.23:614][620]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.19.23:614][620]MaterialEditorStats: Texture samplers: 2/16
+[2025.09.16-03.19.23:614][620]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.19.23:616][620]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.19.23:616][620]MaterialEditorStats: Shader Count: 1
+[2025.09.16-03.19.23:616][620]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.19.28:729][922]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.19.28:729][922]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.19.28:729][922]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.19.28:729][922]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.19.28:729][922]MaterialEditorStats: Shader Count: 3
+[2025.09.16-03.19.28:729][922]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.20.07:401][441]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.20.07:401][441]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.07:401][441]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.07:401][441]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.20.07:401][441]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.20.07:541][443]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.20.07:541][443]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.20.07:541][443]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.07:541][443]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.07:541][443]MaterialEditorStats: Shader Count: 3
+[2025.09.16-03.20.07:541][443]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2025.09.16-03.20.08:900][506]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.20.08:900][506]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.08:900][506]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.08:900][506]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.20.08:900][506]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.09.16-03.20.09:000][508]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.20.09:000][508]MaterialEditorStats: Texture samplers: 2/16
+[2025.09.16-03.20.09:000][508]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.09:001][508]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.09:001][508]MaterialEditorStats: Shader Count: 1
+[2025.09.16-03.20.09:001][508]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.09.16-03.20.11:791][648]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.20.11:791][648]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.20.11:791][648]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.11:791][648]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.11:791][648]MaterialEditorStats: Shader Count: 2
+[2025.09.16-03.20.11:791][648]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.09.16-03.20.37:038][732]MaterialEditorStats: Texture samplers: 0/16
+[2025.09.16-03.20.37:038][732]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.37:038][732]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.37:038][732]MaterialEditorStats: Shader Count: 0
+[2025.09.16-03.20.37:038][732]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.09.16-03.20.37:129][734]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.20.37:129][734]MaterialEditorStats: Texture samplers: 2/16
+[2025.09.16-03.20.37:129][734]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.37:129][734]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.37:129][734]MaterialEditorStats: Shader Count: 1
+[2025.09.16-03.20.37:129][734]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.09.16-03.20.39:805][886]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.20.39:806][886]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.20.39:806][886]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.39:806][886]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.39:806][886]MaterialEditorStats: Shader Count: 2
+[2025.09.16-03.20.39:806][886]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.09.16-03.20.44:159][129]LogMaterialEditor: Saving and Compiling material M_bin
+[2025.09.16-03.20.44:422][129]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2025.09.16-03.20.47:943][129]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2025.09.16-03.20.48:574][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.16-03.20.48:821][129]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/Bin/M_bin] ([1] browsable assets)...
+[2025.09.16-03.20.48:833][129]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Props/Bin/M_bin.M_bin]
+[2025.09.16-03.20.48:833][129]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bin/M_bin]
+[2025.09.16-03.20.48:833][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Bin/M_bin" FILE="../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/M_bin.uasset" SILENT=true
+[2025.09.16-03.20.48:853][129]LogSavePackage: Moving output files for package: /Game/Props/Bin/M_bin
+[2025.09.16-03.20.48:857][129]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/M_bin8A979C954AEBEECA7C0EA9B96E69B93B.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/M_bin.uasset'
+[2025.09.16-03.20.48:875][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 301.837 ms (total: 4.25 sec)
+[2025.09.16-03.20.49:109][129]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.16-03.20.49:109][129]LogContentValidation: Enabled validators:
+[2025.09.16-03.20.49:109][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.16-03.20.49:109][129]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.16-03.20.49:109][129]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.16-03.20.49:109][129]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.16-03.20.49:109][129]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.16-03.20.49:109][129]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.16-03.20.49:109][129]AssetCheck: /Game/Props/Bin/M_bin Validating asset
+[2025.09.16-03.20.49:138][129]MaterialEditorStats: Base pass shader: 533 instructions
+Stats: Resources Used: 11
+Resource Limit: 64
+Samplers Used: 4
+Sampler Limit: 32
+
+[2025.09.16-03.20.49:138][129]MaterialEditorStats: Base pass vertex shader: 349 instructions
+Stats: Resources Used: 8
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 32
+
+[2025.09.16-03.20.49:138][129]MaterialEditorStats: Texture samplers: 5/16
+[2025.09.16-03.20.49:138][129]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.09.16-03.20.49:138][129]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.09.16-03.20.49:138][129]MaterialEditorStats: Shader Count: 17
+[2025.09.16-03.20.49:138][129]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.09.16-03.20.52:842][327]LogShaderCompilers: Display: ================================================
+[2025.09.16-03.20.52:842][327]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.09.16-03.20.52:842][327]LogShaderCompilers: Display: Total job queries 732, among them cache hits 220 (30.05%), DDC hits 335 (45.77%), Duplicates 89 (12.16%)
+[2025.09.16-03.20.52:842][327]LogShaderCompilers: Display: Tracking 423 distinct input hashes that result in 320 distinct outputs (75.65%)
+[2025.09.16-03.20.52:842][327]LogShaderCompilers: Display: RAM used: 4.40 MiB of 819.20 MiB budget. Usage: 0.54%
+[2025.09.16-03.20.52:842][327]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.09.16-03.20.52:842][327]LogShaderCompilers: Display: Shaders Compiled: 88
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Jobs assigned 88, completed 88 (100%)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Average time worker was idle: 194.88 s
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Time job spent in pending queue: average 0.46 s, longest 5.16 s
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Job execution time: average 3.15 s, max 7.16 s
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Job life time (pending + execution): average 3.60 s, max 8.84
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Shader code size: total 1.17 MiB, numShaders 91, average 13.165 KiB, min 2.691 KiB, max 22.762 KiB
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 111.81 s
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Jobs were issued in 88 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Average processing rate: 0.79 jobs/sec
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Total thread time: 240.05 s
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Total thread preprocess time: 24.359 s
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Percentage time preprocessing: 10.15%
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Effective parallelization: 2.15 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.268374
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   16 times, average 4.77 sec, max 6.63 sec, min 2.18 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   13 times, average 3.57 sec, max 5.99 sec, min 1.17 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                                  FPathTracingMaterialCHS_AHS (compiled    2 times, average 3.31 sec, max 4.16 sec, min 2.47 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    3 times, average 3.29 sec, max 4.20 sec, min 2.80 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   13 times, average 2.52 sec, max 4.10 sec, min 1.97 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 31.81% of total time (compiled   16 times, average 4.77 sec, max 6.63 sec, min 2.18 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.33% of total time (compiled   13 times, average 3.57 sec, max 5.99 sec, min 1.17 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 13.65% of total time (compiled   13 times, average 2.52 sec, max 4.10 sec, min 1.97 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                                             FDebugViewModePS - 9.10% of total time (compiled   10 times, average 2.18 sec, max 3.75 sec, min 1.61 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 5.57% of total time (compiled    8 times, average 1.67 sec, max 2.50 sec, min 1.46 sec)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: === Material stats ===
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Materials Translated:    211
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Material Total Translate Time: 0.30 s
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Material Translation Only: 0.14 s (47%)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: Material Cache Hits: 29 (14%)
+[2025.09.16-03.20.52:843][327]LogShaderCompilers: Display: ================================================
+[2025.09.16-03.21.17:372][586]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2025.09.16-03.21.24:773][962]LogEditorTransaction: Undo Remove Components
+[2025.09.16-03.21.49:315][162]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2025.09.16-03.21.53:204][351]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Props/Bin/BP_bin.BP_bin_C
+[2025.09.16-03.21.53:204][351]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Props/Bin/BP_bin.BP_bin_C
+[2025.09.16-03.21.53:208][351]LogActorFactory: Actor Factory spawned Blueprint /Game/Props/Bin/BP_bin.BP_bin as actor: BP_bin_C /Game/Levels/Main_hub.Main_hub:PersistentLevel.BP_bin_C_0
+[2025.09.16-03.21.53:210][351]LogActorFactory: Actor Factory spawned Blueprint /Game/Props/Bin/BP_bin.BP_bin as actor: BP_bin_C /Game/Levels/Main_hub.Main_hub:PersistentLevel.BP_bin_C_0
+[2025.09.16-03.21.54:089][378]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2025.09.16-03.21.54:142][378]LogEditorActor: Deleted 0 Actors (0.103 secs)
+[2025.09.16-03.21.54:148][378]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Props/Bin/BP_bin.BP_bin_C
+[2025.09.16-03.21.54:148][378]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Props/Bin/BP_bin.BP_bin_C
+[2025.09.16-03.21.54:153][378]LogActorFactory: Actor Factory spawned Blueprint /Game/Props/Bin/BP_bin.BP_bin as actor: BP_bin_C /Game/Levels/Main_hub.Main_hub:PersistentLevel.BP_bin_C_1
+[2025.09.16-03.21.54:156][378]LogActorFactory: Actor Factory spawned Blueprint /Game/Props/Bin/BP_bin.BP_bin as actor: BP_bin_C /Game/Levels/Main_hub.Main_hub:PersistentLevel.BP_bin_C_1
+[2025.09.16-03.22.07:879][ 65]Cmd: TRANSACTION UNDO
+[2025.09.16-03.22.07:879][ 65]LogEditorTransaction: Undo Scale Elements
+[2025.09.16-03.22.39:800][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2025.09.16-03.22.39:858][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Main_hub_Auto5
+[2025.09.16-03.22.39:858][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Main_hub_Auto58D1867A746F6C6B21CBE72A703A3EA46.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Levels/Main_hub_Auto5.umap'
+[2025.09.16-03.22.39:865][488]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Main_hub' took 0.124
+[2025.09.16-03.22.39:865][488]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.124
+[2025.09.16-03.22.39:866][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Path/M_path] ([1] browsable assets)...
+[2025.09.16-03.22.39:866][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Path/M_path]
+[2025.09.16-03.22.39:887][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Path/M_path_Auto5
+[2025.09.16-03.22.39:887][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/M_path_Auto5B7F17734497E179B397E748F44776D08.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Path/M_path_Auto5.uasset'
+[2025.09.16-03.22.39:892][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Path/Material_006] ([1] browsable assets)...
+[2025.09.16-03.22.39:892][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Path/Material_006]
+[2025.09.16-03.22.39:910][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Path/Material_006_Auto5
+[2025.09.16-03.22.39:911][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Material_006_Auto5DEC738EF4865907F02292C98CC69EF49.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Path/Material_006_Auto5.uasset'
+[2025.09.16-03.22.39:915][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Path/path] ([1] browsable assets)...
+[2025.09.16-03.22.39:915][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Path/path]
+[2025.09.16-03.22.39:936][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Path/path_Auto5
+[2025.09.16-03.22.39:936][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/path_Auto5229051134007CAC4A2DB64B184611951.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Path/path_Auto5.uasset'
+[2025.09.16-03.22.39:943][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Tree/M_Leaf_green] ([1] browsable assets)...
+[2025.09.16-03.22.39:943][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Tree/M_Leaf_green]
+[2025.09.16-03.22.39:965][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Tree/M_Leaf_green_Auto5
+[2025.09.16-03.22.39:965][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/M_Leaf_green_Auto5C157F64D4811A1DAB4C8E6BBB0306CE6.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Tree/M_Leaf_green_Auto5.uasset'
+[2025.09.16-03.22.39:969][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Tree/M_tree_main] ([1] browsable assets)...
+[2025.09.16-03.22.39:969][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Tree/M_tree_main]
+[2025.09.16-03.22.39:989][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Tree/M_tree_main_Auto5
+[2025.09.16-03.22.39:990][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/M_tree_main_Auto52B927252488831B228710B8526020C75.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Tree/M_tree_main_Auto5.uasset'
+[2025.09.16-03.22.39:995][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Tree/tree] ([1] browsable assets)...
+[2025.09.16-03.22.39:995][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Tree/tree]
+[2025.09.16-03.22.40:067][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Tree/tree_Auto5
+[2025.09.16-03.22.40:067][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/tree_Auto5DED4B76248800D7259C4D19F493C20D9.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Tree/tree_Auto5.uasset'
+[2025.09.16-03.22.40:073][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Bench/M_benchWood] ([1] browsable assets)...
+[2025.09.16-03.22.40:073][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bench/M_benchWood]
+[2025.09.16-03.22.40:096][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Bench/M_benchWood_Auto5
+[2025.09.16-03.22.40:096][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/M_benchWood_Auto50F55084B494FB9ED629E89A4A0630B44.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Bench/M_benchWood_Auto5.uasset'
+[2025.09.16-03.22.40:106][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Bench/Material_012] ([1] browsable assets)...
+[2025.09.16-03.22.40:106][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bench/Material_012]
+[2025.09.16-03.22.40:128][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Bench/Material_012_Auto5
+[2025.09.16-03.22.40:128][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Material_012_Auto56BE0C6F144B1205C9B5A5F8A1E50C875.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Bench/Material_012_Auto5.uasset'
+[2025.09.16-03.22.40:132][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Bench/bench] ([1] browsable assets)...
+[2025.09.16-03.22.40:132][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bench/bench]
+[2025.09.16-03.22.40:165][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Bench/bench_Auto5
+[2025.09.16-03.22.40:165][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/bench_Auto5AC0674574898F80D59CF24BF73A984CC.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Bench/bench_Auto5.uasset'
+[2025.09.16-03.22.40:169][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Pidgeon/pidgeon] ([1] browsable assets)...
+[2025.09.16-03.22.40:169][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Pidgeon/pidgeon]
+[2025.09.16-03.22.40:210][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Pidgeon/pidgeon_Auto5
+[2025.09.16-03.22.40:210][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/pidgeon_Auto5297875D44D44909561883CA230CA79FF.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Pidgeon/pidgeon_Auto5.uasset'
+[2025.09.16-03.22.40:215][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Pidgeon/pidgeon_roughness] ([1] browsable assets)...
+[2025.09.16-03.22.40:215][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Pidgeon/pidgeon_roughness]
+[2025.09.16-03.22.40:239][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Pidgeon/pidgeon_roughness_Auto5
+[2025.09.16-03.22.40:241][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/pidgeon_roughness_Auto5E030F87041E98D18AD7CC08B7FFE15B8.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Pidgeon/pidgeon_roughness_Auto5.uasset'
+[2025.09.16-03.22.40:245][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Pidgeon/pIgeon] ([1] browsable assets)...
+[2025.09.16-03.22.40:245][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Pidgeon/pIgeon]
+[2025.09.16-03.22.40:268][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Pidgeon/pIgeon_Auto5
+[2025.09.16-03.22.40:268][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/pIgeon_Auto576D05D9246F463FAE2E815934400A1F1.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Pidgeon/pIgeon_Auto5.uasset'
+[2025.09.16-03.22.40:275][488]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Pidgeon/pidgeon1] ([1] browsable assets)...
+[2025.09.16-03.22.40:275][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Pidgeon/pidgeon1]
+[2025.09.16-03.22.40:316][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Pidgeon/pidgeon1_Auto5
+[2025.09.16-03.22.40:316][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/pidgeon1_Auto58E84DA60409E583A4F463594C91C8227.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Pidgeon/pidgeon1_Auto5.uasset'
+[2025.09.16-03.22.40:323][488]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/Bin/pixilart-drawing_1] ([1] browsable assets)...
+[2025.09.16-03.22.40:326][488]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Props/Bin/pixilart-drawing_1.pixilart-drawing_1]
+[2025.09.16-03.22.40:326][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bin/pixilart-drawing_1]
+[2025.09.16-03.22.40:346][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Bin/pixilart-drawing_1_Auto5
+[2025.09.16-03.22.40:346][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/pixilart-drawing_1_Auto54A7A6E2349B10F614260A096CAC11568.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Bin/pixilart-drawing_1_Auto5.uasset'
+[2025.09.16-03.22.40:360][488]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Props/Bin/BP_bin] ([2] browsable assets)...
+[2025.09.16-03.22.40:374][488]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Props/Bin/BP_bin.BP_bin]
+[2025.09.16-03.22.40:374][488]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bin/BP_bin]
+[2025.09.16-03.22.40:397][488]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Props/Bin/BP_bin_Auto5
+[2025.09.16-03.22.40:397][488]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/BP_bin_Auto5BC78331647AA2EDF269F78A810AE5FBD.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Autosaves/Game/Props/Bin/BP_bin_Auto5.uasset'
+[2025.09.16-03.22.40:402][488]LogFileHelpers: Auto-saving content packages took 0.537
+[2025.09.16-03.23.08:531][994]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2025.09.16-03.23.09:311][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.16-03.23.09:551][ 15]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Props/Bin/BP_bin] ([2] browsable assets)...
+[2025.09.16-03.23.09:561][ 15]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Props/Bin/BP_bin.BP_bin]
+[2025.09.16-03.23.09:561][ 15]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bin/BP_bin]
+[2025.09.16-03.23.09:561][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Bin/BP_bin" FILE="../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/BP_bin.uasset" SILENT=true
+[2025.09.16-03.23.09:586][ 15]LogSavePackage: Moving output files for package: /Game/Props/Bin/BP_bin
+[2025.09.16-03.23.09:586][ 15]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/BP_bin354061DB4EF7C45D016AACBA5D9D76F4.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/BP_bin.uasset'
+[2025.09.16-03.23.10:307][ 15]LogFileHelpers: InternalPromptForCheckoutAndSave took 996.426 ms (total: 5.24 sec)
+[2025.09.16-03.23.10:579][ 15]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.16-03.23.10:579][ 15]LogContentValidation: Enabled validators:
+[2025.09.16-03.23.10:579][ 15]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.16-03.23.10:579][ 15]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.16-03.23.10:579][ 15]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.16-03.23.10:579][ 15]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.16-03.23.10:579][ 15]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.16-03.23.10:579][ 15]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.16-03.23.10:579][ 15]AssetCheck: /Game/Props/Bin/BP_bin Validating asset
+[2025.09.16-03.23.11:568][ 62]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.16-03.23.11:602][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.16-03.23.11:602][ 62]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.23.11:611][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009216s)
+[2025.09.16-03.23.11:611][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_hub.Main_hub to /Game/Levels/UEDPIE_0_Main_hub.Main_hub (0.009287s)
+[2025.09.16-03.23.11:661][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2025.09.16-03.23.11:665][ 62]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_hub
+[2025.09.16-03.23.11:668][ 62]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Main_hub.Main_hub'.
+[2025.09.16-03.23.11:669][ 62]LogPlayLevel: PIE: World Init took: (0.003231s)
+[2025.09.16-03.23.11:671][ 62]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2025.09.16-03.23.11:671][ 62]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.16-03.23.11:671][ 62]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.16-03.23.11:671][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.16-03.23.11:671][ 62]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.16-03.23.11:671][ 62]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.16-03.23.11:671][ 62]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.16-03.23.11:671][ 62]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.16-03.23.11:671][ 62]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.16-03.23.11:671][ 62]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.16-03.23.11:671][ 62]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.16-03.23.11:671][ 62]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.16-03.23.11:675][ 62]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.16-03.23.11:716][ 62]LogAudioMixer: Display: Using Audio Hardware Device Speakers (NVIDIA Broadcast)
+[2025.09.16-03.23.11:717][ 62]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.16-03.23.11:717][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.16-03.23.11:717][ 62]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.16-03.23.11:718][ 62]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2025.09.16-03.23.11:718][ 62]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2025.09.16-03.23.11:724][ 62]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2025.09.16-03.23.11:724][ 62]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2025.09.16-03.23.11:724][ 62]LogInit: FAudioDevice initialized with ID 15.
+[2025.09.16-03.23.11:724][ 62]LogAudio: Display: Audio Device (ID: 15) registered with world 'Main_hub'.
+[2025.09.16-03.23.11:724][ 62]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2025.09.16-03.23.11:731][ 62]LogLoad: Game class is 'GM_2D_C'
+[2025.09.16-03.23.11:733][ 62]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_hub.Main_hub up for play (max tick rate 60) at 2025.09.16-12.53.11
+[2025.09.16-03.23.11:734][ 62]LogWorld: Bringing up level for play took: 0.003322
+[2025.09.16-03.23.11:739][ 62]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2025.09.16-03.23.11:741][ 62]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.16-03.23.11:741][ 62]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.16-03.23.11:741][ 62]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Hero_with_cape'
+[2025.09.16-03.23.11:749][ 62]PIE: Server logged in
+[2025.09.16-03.23.11:753][ 62]PIE: Play in editor total start time 0.152 seconds.
+[2025.09.16-03.23.14:102][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.23.14:102][198]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.23.14:102][198]LogWorld: UWorld::CleanupWorld for Main_hub, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.23.14:103][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.23.14:111][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.16-03.23.14:122][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.23.14:171][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.23.14:171][198]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2025.09.16-03.23.14:171][198]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2025.09.16-03.23.14:174][198]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2025.09.16-03.23.14:187][198]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2025.09.16-03.23.14:377][199]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2025.09.16-03.23.22:549][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2025.09.16-03.23.23:615][662]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.16-03.23.23:647][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.16-03.23.23:647][662]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.23.23:656][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008889s)
+[2025.09.16-03.23.23:656][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_hub.Main_hub to /Game/Levels/UEDPIE_0_Main_hub.Main_hub (0.008974s)
+[2025.09.16-03.23.23:705][662]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.09.16-03.23.23:713][662]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_hub
+[2025.09.16-03.23.23:716][662]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Main_hub.Main_hub'.
+[2025.09.16-03.23.23:717][662]LogPlayLevel: PIE: World Init took: (0.002952s)
+[2025.09.16-03.23.23:718][662]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2025.09.16-03.23.23:718][662]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.16-03.23.23:718][662]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.16-03.23.23:718][662]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.16-03.23.23:718][662]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.16-03.23.23:718][662]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.16-03.23.23:718][662]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.16-03.23.23:718][662]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.16-03.23.23:718][662]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.16-03.23.23:718][662]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.16-03.23.23:718][662]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.16-03.23.23:718][662]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.16-03.23.23:722][662]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.16-03.23.23:759][662]LogAudioMixer: Display: Using Audio Hardware Device Speakers (NVIDIA Broadcast)
+[2025.09.16-03.23.23:759][662]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.16-03.23.23:759][662]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.16-03.23.23:759][662]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.16-03.23.23:761][662]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2025.09.16-03.23.23:761][662]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2025.09.16-03.23.23:766][662]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2025.09.16-03.23.23:766][662]LogInit: FAudioDevice initialized with ID 16.
+[2025.09.16-03.23.23:766][662]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2025.09.16-03.23.23:766][662]LogAudio: Display: Audio Device (ID: 16) registered with world 'Main_hub'.
+[2025.09.16-03.23.23:766][662]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2025.09.16-03.23.23:773][662]LogLoad: Game class is 'GM_2D_C'
+[2025.09.16-03.23.23:775][662]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_hub.Main_hub up for play (max tick rate 60) at 2025.09.16-12.53.23
+[2025.09.16-03.23.23:777][662]LogWorld: Bringing up level for play took: 0.003199
+[2025.09.16-03.23.23:781][662]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2025.09.16-03.23.23:783][662]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.16-03.23.23:783][662]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.16-03.23.23:783][662]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Hero_with_cape'
+[2025.09.16-03.23.23:790][662]PIE: Server logged in
+[2025.09.16-03.23.23:795][662]PIE: Play in editor total start time 0.151 seconds.
+[2025.09.16-03.23.33:809][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.23.33:809][235]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.23.33:809][235]LogWorld: UWorld::CleanupWorld for Main_hub, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.23.33:811][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.23.33:818][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.16-03.23.33:827][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.23.33:872][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.23.33:873][235]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2025.09.16-03.23.33:873][235]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=4
+[2025.09.16-03.23.33:876][235]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16, StreamState=2
+[2025.09.16-03.23.33:889][235]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2025.09.16-03.23.33:996][236]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2025.09.16-03.23.42:904][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.23.43:135][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.23.43:330][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.23.43:528][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.23.58:699][173]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.16-03.23.58:746][173]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.16-03.23.58:746][173]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.23.58:755][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008893s)
+[2025.09.16-03.23.58:755][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_hub.Main_hub to /Game/Levels/UEDPIE_0_Main_hub.Main_hub (0.008958s)
+[2025.09.16-03.23.58:830][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2025.09.16-03.23.58:835][173]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_hub
+[2025.09.16-03.23.58:837][173]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Main_hub.Main_hub'.
+[2025.09.16-03.23.58:838][173]LogPlayLevel: PIE: World Init took: (0.002986s)
+[2025.09.16-03.23.58:839][173]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2025.09.16-03.23.58:839][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.16-03.23.58:839][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.16-03.23.58:839][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.16-03.23.58:839][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.16-03.23.58:839][173]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.16-03.23.58:839][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.16-03.23.58:839][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.16-03.23.58:839][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.16-03.23.58:839][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.16-03.23.58:839][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.16-03.23.58:841][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.16-03.23.58:844][173]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.16-03.23.58:881][173]LogAudioMixer: Display: Using Audio Hardware Device Speakers (NVIDIA Broadcast)
+[2025.09.16-03.23.58:881][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.16-03.23.58:881][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.16-03.23.58:881][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.16-03.23.58:882][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2025.09.16-03.23.58:882][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2025.09.16-03.23.58:888][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2025.09.16-03.23.58:888][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2025.09.16-03.23.58:888][173]LogInit: FAudioDevice initialized with ID 17.
+[2025.09.16-03.23.58:888][173]LogAudio: Display: Audio Device (ID: 17) registered with world 'Main_hub'.
+[2025.09.16-03.23.58:888][173]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2025.09.16-03.23.58:915][173]LogLoad: Game class is 'GM_2D_C'
+[2025.09.16-03.23.58:918][173]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_hub.Main_hub up for play (max tick rate 60) at 2025.09.16-12.53.58
+[2025.09.16-03.23.58:918][173]LogWorld: Bringing up level for play took: 0.003641
+[2025.09.16-03.23.58:923][173]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2025.09.16-03.23.58:926][173]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.16-03.23.58:926][173]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.16-03.23.58:926][173]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Hero_with_cape'
+[2025.09.16-03.23.58:934][173]PIE: Server logged in
+[2025.09.16-03.23.58:944][173]PIE: Play in editor total start time 0.199 seconds.
+[2025.09.16-03.24.18:262][ 65]LogSlate: Window 'Viewport 2' being destroyed
+[2025.09.16-03.24.18:282][ 65]LogSlate: Window 'Viewport 2' being destroyed
+[2025.09.16-03.24.18:285][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.24.18:285][ 65]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.24.18:285][ 65]LogWorld: UWorld::CleanupWorld for Main_hub, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.24.18:289][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.24.18:296][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.16-03.24.18:306][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.24.18:373][ 65]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.16-03.24.18:374][ 65]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2025.09.16-03.24.18:374][ 65]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=4
+[2025.09.16-03.24.18:377][ 65]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17, StreamState=2
+[2025.09.16-03.24.18:387][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.24.18:393][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2025.09.16-03.24.18:542][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2025.09.16-03.24.22:790][278]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.16-03.24.23:222][278]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2025.09.16-03.24.23:281][278]LogSavePackage: Moving output files for package: /Game/Levels/Main_hub
+[2025.09.16-03.24.23:287][278]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/Main_hubA6F6D7B34AA836F6E3B3F28A57933D81.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Levels/Main_hub.umap'
+[2025.09.16-03.24.23:379][278]LogFileHelpers: Saving map 'Main_hub' took 0.349
+[2025.09.16-03.24.23:390][278]LogFileHelpers: InternalPromptForCheckoutAndSave took 599.918 ms (total: 5.84 sec)
+[2025.09.16-03.24.23:604][278]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.16-03.24.23:604][278]LogContentValidation: Enabled validators:
+[2025.09.16-03.24.23:606][278]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.16-03.24.23:606][278]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.16-03.24.23:606][278]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.16-03.24.23:606][278]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.16-03.24.23:606][278]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.16-03.24.23:606][278]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.16-03.24.23:606][278]AssetCheck: /Game/Levels/Main_hub Validating asset
+[2025.09.16-03.24.26:859][439]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.24.26:859][439]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.24.27:030][439]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2025.09.16-03.24.27:818][472]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.24.27:818][472]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.24.27:895][472]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2025.09.16-03.24.28:804][518]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.09.16-03.24.28:804][518]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.24.28:804][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.24.29:078][518]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2025.09.16-03.24.30:218][564]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Props/Bin/BP_bin.BP_bin
+[2025.09.16-03.24.30:218][564]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.09.16-03.24.30:220][564]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_21'.
+[2025.09.16-03.24.42:915][106]LogDerivedDataCache: C:/Users/kaino/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.16-03.24.46:533][286]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2025.09.16-03.24.47:666][341]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.16-03.24.47:695][341]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.16-03.24.47:695][341]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.24.47:704][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008746s)
+[2025.09.16-03.24.47:704][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_hub.Main_hub to /Game/Levels/UEDPIE_0_Main_hub.Main_hub (0.008812s)
+[2025.09.16-03.24.47:748][341]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2025.09.16-03.24.47:755][341]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_hub
+[2025.09.16-03.24.47:757][341]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Main_hub.Main_hub'.
+[2025.09.16-03.24.47:758][341]LogPlayLevel: PIE: World Init took: (0.002725s)
+[2025.09.16-03.24.47:759][341]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2025.09.16-03.24.47:759][341]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.16-03.24.47:759][341]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.16-03.24.47:759][341]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.16-03.24.47:759][341]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.16-03.24.47:759][341]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.16-03.24.47:759][341]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.16-03.24.47:759][341]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.16-03.24.47:759][341]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.16-03.24.47:759][341]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.16-03.24.47:759][341]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.16-03.24.47:759][341]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.16-03.24.47:763][341]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.16-03.24.47:800][341]LogAudioMixer: Display: Using Audio Hardware Device Speakers (NVIDIA Broadcast)
+[2025.09.16-03.24.47:800][341]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.16-03.24.47:800][341]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.16-03.24.47:800][341]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.16-03.24.47:801][341]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2025.09.16-03.24.47:801][341]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2025.09.16-03.24.47:806][341]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2025.09.16-03.24.47:806][341]LogInit: FAudioDevice initialized with ID 18.
+[2025.09.16-03.24.47:806][341]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2025.09.16-03.24.47:806][341]LogAudio: Display: Audio Device (ID: 18) registered with world 'Main_hub'.
+[2025.09.16-03.24.47:806][341]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2025.09.16-03.24.47:813][341]LogLoad: Game class is 'GM_2D_C'
+[2025.09.16-03.24.47:816][341]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_hub.Main_hub up for play (max tick rate 60) at 2025.09.16-12.54.47
+[2025.09.16-03.24.47:817][341]LogWorld: Bringing up level for play took: 0.003331
+[2025.09.16-03.24.47:821][341]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2025.09.16-03.24.47:823][341]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.16-03.24.47:823][341]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.16-03.24.47:823][341]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Hero_with_cape'
+[2025.09.16-03.24.47:830][341]PIE: Server logged in
+[2025.09.16-03.24.47:834][341]PIE: Play in editor total start time 0.139 seconds.
+[2025.09.16-03.24.51:181][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.24.51:181][534]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.24.51:181][534]LogWorld: UWorld::CleanupWorld for Main_hub, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.24.51:182][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.24.51:189][534]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.16-03.24.51:198][534]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.24.51:243][534]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.24.51:244][534]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2025.09.16-03.24.51:244][534]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=4
+[2025.09.16-03.24.51:247][534]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18, StreamState=2
+[2025.09.16-03.24.51:261][534]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2025.09.16-03.24.51:370][535]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2025.09.16-03.25.01:680][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2025.09.16-03.25.03:119][ 73]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.16-03.25.03:149][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.16-03.25.03:180][ 73]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.25.03:188][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008508s)
+[2025.09.16-03.25.03:188][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_hub.Main_hub to /Game/Levels/UEDPIE_0_Main_hub.Main_hub (0.008583s)
+[2025.09.16-03.25.03:235][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2025.09.16-03.25.03:241][ 73]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_hub
+[2025.09.16-03.25.03:243][ 73]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Main_hub.Main_hub'.
+[2025.09.16-03.25.03:243][ 73]LogPlayLevel: PIE: World Init took: (0.002893s)
+[2025.09.16-03.25.03:245][ 73]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2025.09.16-03.25.03:245][ 73]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.16-03.25.03:245][ 73]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.16-03.25.03:245][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.16-03.25.03:245][ 73]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.16-03.25.03:245][ 73]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.16-03.25.03:245][ 73]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.16-03.25.03:245][ 73]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.16-03.25.03:245][ 73]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.16-03.25.03:245][ 73]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.16-03.25.03:245][ 73]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.16-03.25.03:245][ 73]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.16-03.25.03:249][ 73]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.16-03.25.03:287][ 73]LogAudioMixer: Display: Using Audio Hardware Device Speakers (NVIDIA Broadcast)
+[2025.09.16-03.25.03:288][ 73]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.16-03.25.03:288][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.16-03.25.03:288][ 73]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.16-03.25.03:288][ 73]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2025.09.16-03.25.03:288][ 73]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2025.09.16-03.25.03:294][ 73]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2025.09.16-03.25.03:294][ 73]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2025.09.16-03.25.03:294][ 73]LogInit: FAudioDevice initialized with ID 19.
+[2025.09.16-03.25.03:294][ 73]LogAudio: Display: Audio Device (ID: 19) registered with world 'Main_hub'.
+[2025.09.16-03.25.03:294][ 73]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2025.09.16-03.25.03:300][ 73]LogLoad: Game class is 'GM_2D_C'
+[2025.09.16-03.25.03:303][ 73]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_hub.Main_hub up for play (max tick rate 60) at 2025.09.16-12.55.03
+[2025.09.16-03.25.03:304][ 73]LogWorld: Bringing up level for play took: 0.003234
+[2025.09.16-03.25.03:309][ 73]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2025.09.16-03.25.03:311][ 73]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.16-03.25.03:311][ 73]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.16-03.25.03:311][ 73]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Hero_with_cape'
+[2025.09.16-03.25.03:318][ 73]PIE: Server logged in
+[2025.09.16-03.25.03:322][ 73]PIE: Play in editor total start time 0.173 seconds.
+[2025.09.16-03.25.07:813][317]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3708.135986
+[2025.09.16-03.25.08:080][333]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.16-03.25.08:080][333]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3708.385010, Update Interval: 334.058655
+[2025.09.16-03.25.09:557][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.25.09:557][419]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.25.09:557][419]LogWorld: UWorld::CleanupWorld for Main_hub, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.25.09:558][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.25.09:565][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.16-03.25.09:573][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.25.09:621][419]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.16-03.25.09:621][419]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2025.09.16-03.25.09:621][419]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=4
+[2025.09.16-03.25.09:624][419]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19, StreamState=2
+[2025.09.16-03.25.09:633][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.25.09:638][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2025.09.16-03.25.09:748][420]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2025.09.16-03.25.14:334][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.16-03.25.14:595][638]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Props/Bin/BP_bin] ([2] browsable assets)...
+[2025.09.16-03.25.14:605][638]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Props/Bin/BP_bin.BP_bin]
+[2025.09.16-03.25.14:605][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bin/BP_bin]
+[2025.09.16-03.25.14:605][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Bin/BP_bin" FILE="../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/BP_bin.uasset" SILENT=true
+[2025.09.16-03.25.14:631][638]LogSavePackage: Moving output files for package: /Game/Props/Bin/BP_bin
+[2025.09.16-03.25.14:636][638]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/BP_bin518E67E64E4ED4A4F057AC9A8B627835.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/BP_bin.uasset'
+[2025.09.16-03.25.14:654][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 318.990 ms (total: 6.16 sec)
+[2025.09.16-03.25.14:874][638]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.16-03.25.14:874][638]LogContentValidation: Enabled validators:
+[2025.09.16-03.25.14:875][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.16-03.25.14:875][638]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.16-03.25.14:875][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.16-03.25.14:875][638]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.16-03.25.14:875][638]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.16-03.25.14:875][638]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.16-03.25.14:875][638]AssetCheck: /Game/Props/Bin/BP_bin Validating asset
+[2025.09.16-03.25.15:842][680]LogUObjectHash: Compacting FUObjectHashTables data took   3.12ms
+[2025.09.16-03.25.16:623][699]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.16-03.25.16:879][699]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Props/Bin/BP_bin] ([2] browsable assets)...
+[2025.09.16-03.25.16:888][699]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Props/Bin/BP_bin.BP_bin]
+[2025.09.16-03.25.16:888][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Bin/BP_bin]
+[2025.09.16-03.25.16:888][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Bin/BP_bin" FILE="../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/BP_bin.uasset" SILENT=true
+[2025.09.16-03.25.16:913][699]LogSavePackage: Moving output files for package: /Game/Props/Bin/BP_bin
+[2025.09.16-03.25.16:917][699]LogSavePackage: Moving '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Saved/BP_bin77A55B7B49E06425485A85BD7C95BA51.tmp' to '../../../../../../Users/kaino/OneDrive/Documents/GitHub/GHU_Project/Superhero_fitness/Content/Props/Bin/BP_bin.uasset'
+[2025.09.16-03.25.16:933][699]LogFileHelpers: InternalPromptForCheckoutAndSave took 309.653 ms (total: 6.47 sec)
+[2025.09.16-03.25.17:151][699]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.16-03.25.17:151][699]LogContentValidation: Enabled validators:
+[2025.09.16-03.25.17:151][699]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.16-03.25.17:151][699]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.16-03.25.17:151][699]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.16-03.25.17:151][699]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.16-03.25.17:151][699]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.16-03.25.17:151][699]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.16-03.25.17:152][699]AssetCheck: /Game/Props/Bin/BP_bin Validating asset
+[2025.09.16-03.25.18:430][768]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.16-03.25.18:460][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.16-03.25.18:460][768]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.25.18:473][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013711s)
+[2025.09.16-03.25.18:474][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_hub.Main_hub to /Game/Levels/UEDPIE_0_Main_hub.Main_hub (0.013779s)
+[2025.09.16-03.25.18:515][768]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.09.16-03.25.18:520][768]LogChaosDD: Creating Chaos Debug Draw Scene for world Main_hub
+[2025.09.16-03.25.18:523][768]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Game/Levels/UEDPIE_0_Main_hub.Main_hub'.
+[2025.09.16-03.25.18:523][768]LogPlayLevel: PIE: World Init took: (0.002965s)
+[2025.09.16-03.25.18:525][768]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.09.16-03.25.18:525][768]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.16-03.25.18:525][768]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.16-03.25.18:525][768]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.16-03.25.18:525][768]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.16-03.25.18:525][768]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.16-03.25.18:525][768]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.16-03.25.18:525][768]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.16-03.25.18:525][768]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.16-03.25.18:525][768]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.16-03.25.18:525][768]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.16-03.25.18:525][768]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.16-03.25.18:530][768]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.16-03.25.18:568][768]LogAudioMixer: Display: Using Audio Hardware Device Speakers (NVIDIA Broadcast)
+[2025.09.16-03.25.18:568][768]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.16-03.25.18:568][768]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.16-03.25.18:569][768]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.16-03.25.18:569][768]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.09.16-03.25.18:569][768]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.09.16-03.25.18:576][768]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.09.16-03.25.18:576][768]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.09.16-03.25.18:576][768]LogInit: FAudioDevice initialized with ID 20.
+[2025.09.16-03.25.18:576][768]LogAudio: Display: Audio Device (ID: 20) registered with world 'Main_hub'.
+[2025.09.16-03.25.18:576][768]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.09.16-03.25.18:582][768]LogLoad: Game class is 'GM_2D_C'
+[2025.09.16-03.25.18:585][768]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_hub.Main_hub up for play (max tick rate 60) at 2025.09.16-12.55.18
+[2025.09.16-03.25.18:586][768]LogWorld: Bringing up level for play took: 0.003339
+[2025.09.16-03.25.18:590][768]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2025.09.16-03.25.18:593][768]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2025.09.16-03.25.18:593][768]LogSkeletalMesh: Display: OnRegister[/Game/Characters/SuperHero/Hero_with_cape/Hero_with_cape.Hero_with_cape]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2025.09.16-03.25.18:593][768]LogSkeletalMesh: USkeletalMeshComponent: Recreating Clothing Actors for 'CharacterMesh0' with 'Hero_with_cape'
+[2025.09.16-03.25.18:599][768]PIE: Server logged in
+[2025.09.16-03.25.18:604][768]PIE: Play in editor total start time 0.145 seconds.
+[2025.09.16-03.25.27:352][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.25.27:352][274]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Main_hub
+[2025.09.16-03.25.27:352][274]LogWorld: UWorld::CleanupWorld for Main_hub, bSessionEnded=true, bCleanupResources=true
+[2025.09.16-03.25.27:353][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.25.27:360][274]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.16-03.25.27:369][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.16-03.25.27:417][274]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.16-03.25.27:418][274]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.09.16-03.25.27:418][274]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=4
+[2025.09.16-03.25.27:421][274]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20, StreamState=2
+[2025.09.16-03.25.27:435][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2025.09.16-03.25.27:548][275]LogPlayLevel: Display: Destroying online subsystem :Context_41
