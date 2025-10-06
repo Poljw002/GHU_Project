@@ -1416,6 +1416,7 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.06-00.00.54:989][481]LogSlate: Took 0.001428 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
 [2025.10.06-00.00.56:207][484]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_4
 [2025.10.06-00.00.56:208][484]LogRenderer: SceneCulling instance hierarchy is disabled as UseNanite(PCD3D_SM6) returned false, for scene: 'World /Engine/Transient.World_4'.
+<<<<<<< Updated upstream
 [2025.10.06-00.01.21:916][560]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
 [2025.10.06-00.01.22:184][560]LogStall: Shutdown...
 [2025.10.06-00.01.22:184][560]LogStall: Shutdown complete.
@@ -1489,3 +1490,5 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.10.06-00.01.31:103][561]LogD3D12RHI: ~FD3D12DynamicRHI
 [2025.10.06-00.01.31:155][561]LogExit: Exiting.
 [2025.10.06-00.01.31:193][561]Log file closed, 10/06/25 10:31:31
+=======
+>>>>>>> Stashed changes
