@@ -5299,3 +5299,24 @@ Make sure 'BP_ThirdPersonCharacter_C' has been compiled for  Follow Character
 [2025.10.07-02.24.59:594][ 33]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
 [2025.10.07-02.24.59:728][ 33]LogExit: Editor shut down
 [2025.10.07-02.24.59:749][ 33]LogExit: Transaction tracking system shut down
+[2025.10.07-02.25.01:114][ 33]LogExit: Object subsystem successfully closed.
+[2025.10.07-02.25.01:183][ 33]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.07-02.25.01:840][ 33]LogMemoryProfiler: Shutdown
+[2025.10.07-02.25.01:842][ 33]LogNetworkingProfiler: Shutdown
+[2025.10.07-02.25.01:842][ 33]LoadingProfiler: Shutdown
+[2025.10.07-02.25.01:843][ 33]LogTimingProfiler: Shutdown
+[2025.10.07-02.25.01:868][ 33]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.07-02.25.01:870][ 33]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.07-02.25.02:746][ 33]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.07-02.25.02:774][ 33]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.07-02.25.02:775][ 33]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA76CB01B-495F-4FB6-EF44-F2BD86AD247F%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=4d2bf8e5408df69e94011284ecd4b1fe%7Cd91690215b2d44ab91c3e8a9f72f5a4b%7C48307fb5-2fd9-4af9-9b75-6e7856bd114b&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.07-02.25.03:866][ 33]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.07-02.25.03:867][ 33]RenderDocPlugin: plugin has been unloaded.
+[2025.10.07-02.25.03:882][ 33]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.07-02.25.03:899][ 33]LogXGEController: Cleaning working directory: C:/Users/randy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.07-02.25.03:921][ 33]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.07-02.25.03:921][ 33]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.07-02.25.03:921][ 33]LogPakFile: Destroying PakPlatformFile
+[2025.10.07-02.25.04:462][ 33]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.10.07-02.25.04:557][ 33]LogExit: Exiting.
+[2025.10.07-02.25.04:589][ 33]Log file closed, 10/07/25 12:55:04
